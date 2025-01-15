@@ -14,6 +14,12 @@
     justify-content: center;
     font-weight: bold;
 }
+.outer{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
 
 .navbar li{
     list-style-type: none;
@@ -41,6 +47,7 @@
     box-shadow: 10px 10px #0c70e2;
    /* border: 4px solid #439e03;*/
     border: 3px black solid;
+
 
 }
 
@@ -101,11 +108,18 @@
     margin-left: auto;
     margin-right: auto;
     display: block;
-    width: 50%;
-    height: 50%;
+    width: 25%;
+    height: 25%;
 }
 
 
+
+
+
+.gif img {
+    display: block;
+    border-radius: 20px;
+}
 
  .footer{
     background: gray;
@@ -126,4 +140,3 @@
     border-radius: 12px;
     transition: 0.5s;
 }
-
