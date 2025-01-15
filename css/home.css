@@ -1,0 +1,129 @@
+
+*{
+    margin: 0;
+    font-family: 'Cabin Sketch';
+}
+
+.navbar{
+    list-style-type: none;
+    margin: 0;
+    padding: 20px;
+    background: #959292;
+    border: 1px black solid;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.navbar li{
+    list-style-type: none;
+    display: inline;
+
+}
+
+
+
+.navbar li a{
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+/*Nav Bar End*/
+
+/*Profile Start*/
+
+.profile-container{
+    margin: 20px;
+    padding: 20px;
+    background: #f4f4f4;
+    border-radius: 12px;
+    box-shadow: 10px 10px #0c70e2;
+   /* border: 4px solid #439e03;*/
+    border: 3px black solid;
+
+}
+
+.profile-row-1{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.profile-row-1 .profile-col-1{
+    justify-content: center;
+    text-align: center;
+}
+
+.profile-col-1 .name{
+    margin-bottom: 1%;
+}
+
+.profile-row-1 img{
+    border-radius: 50%;
+    width: 50%;
+    height: 75%;
+}
+
+.profile-row-1 .profile-col-1 .subtitle{
+    font-weight: 500;
+}
+
+/*Yung may dalawang box na isa mas malaki kesa sa nasa right*/
+.main{
+    display: flex;
+    justify-content: center;
+}
+
+.profile-row-2{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2%;
+}
+
+ #info-1{
+    margin-top: 2%;
+    width: 65%;
+}
+
+ #info-2{
+    margin-top: 2%;
+    width: 35%;
+ }
+
+
+.profile-row-3 .hayop{
+    text-align: center;
+ }
+
+.profile-row-3 .hayop_img{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 50%;
+    height: 50%;
+}
+
+
+
+ .footer{
+    background: gray;
+    padding: 20px;
+    text-align: center;
+
+     left: 0;
+     bottom: 0;
+     width: 100%;
+ }
+
+
+ /*Dramatic Effects*/
+
+.navbar li a:hover{
+    background: #000;
+    color: #fff;
+    border-radius: 12px;
+    transition: 0.5s;
+}
+
